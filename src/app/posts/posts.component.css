@@ -1,0 +1,59 @@
+.mat-card{
+  margin-top: 30px;
+}
+mat-card-title {
+  color:rgb(104, 53, 207);
+}
+.homeLink{
+  margin-top: 20px;
+  margin-left: 11px;
+}
+.gettingDiv{
+  display: flex;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: -40px;
+}
+.imgDiv{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.contentDiv{
+  margin-top: 26px;
+}
+.mainDiv{
+  margin-top:30px;
+}
+.profileImg{
+height: 40px;
+border-radius: 30px;
+}
+.userDiv{
+  display: flex;
+}
+.profileDiv{
+  margin-right: 16px;
+  margin-top: 5px;
+}
+/* .desClass{
+  /* white-space: nowrap;
+  overflow: hidden;
+  max-width: 280ch;
+  display: -webkit-box;
+  -webkit-box-orient: vertical; */
+
+    /* overflow: hidden;
+    max-width: 75ch;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: 1px solid ; */
+
+/* } */
+
+.readMore{
+  background-color:rgb(104, 53, 207);
+  color: white;
+  border-radius: 5px;
+  border: 0;
+}

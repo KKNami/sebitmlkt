@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6" *ngFor="let item of ctgdata">
+      <mat-card class="example-card">
+          <div  class="imgDiv m-5">
+            <img src="assets/icons/{{item.icon}}">
+          </div>
+        <div>
+          <mat-card-header>
+            <mat-card-title style="margin-left: -17px;">{{item.name}}</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <p>
+              {{item.description}}
+            </p>
+          </mat-card-content>
+        </div>
+      </mat-card>
+    </div>
+  </div>
+
+</div>
